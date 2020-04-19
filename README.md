@@ -2,14 +2,13 @@
 
 coexpression, differential and cluster analysis used in my masters
 
-## contents
-'masters_scripts_for_masters'
-  scripts that direct the core parts of my project
-  they rely on functions and scripts within 'functions'
+### functions
+
+contains all functions and scripts that master scripts direct to produce results
 
 ### masterscripts
 
-all scripts that drive the core transcriptional profiling using co-expression and differential expression
+all scripts that drive the core transcriptional profiling of cell subsets using co-expression and differential expression
 
 | file | function |
 | ------ | ----------- |
@@ -18,11 +17,6 @@ all scripts that drive the core transcriptional profiling using co-expression an
 | kallisto.sh    | raw sequence read alignment and mapping using fasta paired end sequencefiles  |
 | self_organising_map_.R    | self-organising map to transcriptionally profile cell subsets  |
 | wgcna_master.R    | self-organising map to transcriptionally profile cell subsets  |
-
-### functions
-
-contains all functions and scripts that master scripts direct to produce results
-
 
 
 
