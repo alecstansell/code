@@ -12,11 +12,11 @@ all scripts that drive the core transcriptional profiling of cell subsets using 
 
 | file | function |
 | ------ | ----------- |
-| coexpression_method_comparison_master.r   | compares three co-expression methods (self organising maps, weighted gene co-expression analysis and k-means) |
-| differential_expression_master.r | three different differential expression methodologies |
+| coexpression_method_comparison_master.R   | compares three co-expression methods (self organising maps, weighted gene co-expression analysis and k-means) |
+| differential_expression_master.R | three different differential expression methodologies |
 | kallisto.sh    | raw sequence read alignment and mapping using fasta paired end sequencefiles  |
-| self_organising_map_.r    | self-organising map to transcriptionally profile cell subsets  |
-| wgcna_master.r    | self-organising map to transcriptionally profile cell subsets  |
+| self_organising_map_.R    | self-organising map to transcriptionally profile cell subsets  |
+| wgcna_master.R    | self-organising map to transcriptionally profile cell subsets  |
 
 
 
