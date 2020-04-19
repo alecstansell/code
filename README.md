@@ -2,26 +2,28 @@
 
 coexpression, differential and cluster analysis used in my masters
 
-### contents
-
+## contents
 'masters_scripts_for_masters'
   scripts that direct the core parts of my project
   they rely on functions and scripts within 'functions'
 
-'functions'
-  all functions needed
+### masterscripts
 
-#### masterscripts
+all scripts that drive the core transcriptional profiling using co-expression and differential expression
 
-coexpression_method_comparison_master.R
-  Self-organising map (with heirachical clustering), k-means and WGCNA comparison and visualisation
+| file | function |
+| ------ | ----------- |
+| coexpression_method_comparison_master.R   | Compares three co-expression methods (Self Organising Maps, Weighted Gene Co-expression Analysis and k-means) |
+| differential_expression_master.R | three different differential expression methodologies (DESeq2, limmaR and sleuth)|
+| kallisto.sh    | raw sequence read alignment and mapping using fasta paired end sequencefiles  |
+| self_organising_map_.R    | self-organising map to transcriptionally profile cell subsets  |
+| wgcna_master.R    | self-organising map to transcriptionally profile cell subsets  |
 
-wgcna_master
-  wgcna analysis and visualisation
-  includes: hub analysis, sample heatmaps, distribution plots, outlier removal, normalisation and data cleaning
+### functions
 
-differential_expresion_master.R
-  differential expression analysis with three different methods (DESeq2, limmaR and sleuth)
+contains all functions and scripts that master scripts direct to produce results
 
-selforganisingmap_master.R
-  Code for the full transcriptional profiling and heatmap generation for SOM
+
+
+
+
