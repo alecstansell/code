@@ -8,7 +8,7 @@ contains all functions and scripts that master scripts direct to produce results
 
 ### masterscripts
 
-all scripts that drive the core transcriptional profiling of cell subsets using co-expression and differential expression
+all scripts that drive the core transcriptional profiling of cell subsets using coexpression and differential expression
 
 | file | function |
 | ------ | ----------- |
