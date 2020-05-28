@@ -16,7 +16,7 @@ all scripts that drive the core transcriptional profiling of cell subsets using 
 | differential_expression_master.R | three different differential expression methodologies |
 | kallisto.sh    | raw sequence read alignment and mapping using fasta paired end sequence files  |
 | self_organising_map_.R    | self-organising map to transcriptionally profile cell subsets  |
-| wgcna_master.R    | self-organising map to transcriptionally profile cell subsets  |
+| wgcna_master.R    | wgcna pipeline to run co-expression analyses  |
 
 
 
